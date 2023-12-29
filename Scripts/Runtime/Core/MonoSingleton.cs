@@ -31,5 +31,9 @@ namespace TinyModules.Core
             return true;
         }
 
+        protected virtual void OnDestroy()
+        {
+            _instance = null;
+        }
     }
 }
