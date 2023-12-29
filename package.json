@@ -1,0 +1,7 @@
+{
+    "name": "com.tinyutils.tinymodules",
+    "displayName": "Tiny Modules",
+    "version": "1.0.0",
+    "description": "Utility modules to improve development efficiency for Unity game development",
+    "unity": "2021.3"
+}
