@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace TinyModules.Core
+namespace TinyTower.Modules.Utility
 {
     public class MonoSingleton<T> : MonoBehaviour where T : MonoBehaviour
     {
