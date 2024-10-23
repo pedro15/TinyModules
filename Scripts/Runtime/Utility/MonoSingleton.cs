@@ -11,8 +11,11 @@ namespace TinyTower.Modules.Utility
             get
             {
                 if (!_instance)
+#if UNITY_6000
+                    _instance = FindAnyObjectByType<T>();
+#else
                     _instance = FindObjectOfType<T>();
-                
+#endif
                 return _instance;
             }
         }
